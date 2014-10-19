@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1_from"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/form_note"
+        android:textColor="@android:color/holo_blue_light"/>
+    
+    <EditText
+        android:id="@+id/edt_nom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1_from"
+        android:layout_margin="@dimen/margin_button"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10px"
+        android:hint="@string/form_nom" />
+    
+    <EditText 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edt_prenom"
+       android:layout_margin="@dimen/margin_button"
+       android:layout_below="@id/edt_nom"
+       android:drawableLeft="@drawable/user"
+       android:drawablePadding="10px"
+       android:hint="@string/form_prenom"  />
+    
+   <RadioGroup
+        android:id="@+id/radio_grp_gender"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+   		android:orientation="horizontal" 
+   		android:layout_below="@id/edt_prenom">
+   		
+   		 <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/radio_gender_male"
+	        android:layout_margin="@dimen/margin_button"
+	        android:text="@string/radio_btn_male" />
+   		     
+	     <RadioButton
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/radio_gender_female"
+	        android:layout_margin="@dimen/margin_button"
+	        android:text="@string/radio_btn_female"/>
+   </RadioGroup> 
+    
+    <EditText 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edt_portable"
+       android:inputType="phone"
+       android:layout_margin="@dimen/margin_button"
+       android:layout_below="@id/radio_grp_gender"
+       android:drawableLeft="@drawable/mobile"
+       android:drawablePadding="10px"
+       android:hint="@string/form_portable" />
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_button"
+        android:hint="@string/email_hint"
+        android:layout_below="@id/edt_portable"
+        android:id="@+id/edt_email" 
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10px"
+        android:inputType="textEmailAddress"/>
+    
+    <EditText 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edt_password" 
+       android:inputType="textPassword"
+       android:layout_margin="@dimen/margin_button"
+       android:layout_below="@id/edt_email"
+       android:drawableLeft="@drawable/password"
+       android:drawablePadding="10px"
+       android:hint="@string/form_password"/>
+    
+    <EditText 
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/edt_repassword"
+       android:inputType="textPassword"
+       android:layout_margin="@dimen/margin_button"
+       android:layout_below="@id/edt_password"
+       android:drawableLeft="@drawable/password"
+       android:drawablePadding="10px"
+       android:hint="@string/form_repassword" />
+    
+     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_below="@id/edt_repassword"
+        android:text="@string/btn_register"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_register"
+        android:background="@android:color/holo_blue_bright"/>
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cleanandroidtest.Connexion" >
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_connexion"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/connexion"
+        android:textColor="@android:color/holo_blue_light"/>
+     
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_button"
+        android:hint="@string/email_hint"
+        android:layout_below="@id/txt_connexion"
+        android:id="@+id/edt_email"
+        android:drawableLeft="@drawable/email"
+        android:inputType="textEmailAddress" />
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_below="@id/edt_email"
+        android:hint="@string/password_hint"
+        android:id="@+id/edt_password"
+        android:drawableLeft="@drawable/password"
+        android:inputType="textPassword" />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_below="@id/edt_password"
+        android:text="@string/btn_connect"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_connect"
+        android:background="@android:color/holo_blue_light"/>
+    
+     <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_forget_password"
+        android:layout_below="@id/btn_connect"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_centerHorizontal="true"
+        android:text="@string/forget_password"
+        android:textColor="@android:color/holo_blue_light"/>
+        
+        
+    
+        
+
+</RelativeLayout>

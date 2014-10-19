@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_note">Bienvenue !!!</string>
+    <string name="email_hint">Entrez votre email</string>
+    <string name="password_hint">Entrez votre mot de passe</string>
+    <string name="btn_connect">Se Connecter</string>
+    <string name="btn_disconnect">Se Deconnecter</string>
+    <string name="Note">Veuillez selectionner &quot;s'enregistrer&quot; pour creer un compte ou &quot;se connecter&quot; si vous en avez deja un...</string>
+    <string name="btn_1_main">&quot;S'enregistrer&quot;</string>
+    <string name="btn_2_main">Se connecter</string>
+    <string name="form_note">Veuillez saisir vos informations</string>
+    <string name="form_nom">Nom</string>
+    <string name="form_prenom">Prenom</string>
+    <string name="form_portable">Telephone portable</string>
+    <string name="form_email">E-mail </string>
+    <string name="form_password">Mot de passe</string>
+    <string name="form_repassword">Confirmation mot de passe </string>
+    <string name="radio_btn_male">Masculin</string>
+    <string name="radio_btn_female">Feminin</string>
+    <string name="btn_register">&quot;S'enregistrer&quot;</string>
+    <string name="connexion">Merci de vous connecter pour acceder a &quot;l'application&quot;</string>
+    <string name="forget_password">Mot de passe oublier ?</string>
+    <string name="auth_msg">Bienvenue !!!</string>
+    <string name="label1">Mon Compte</string>
+    <string-array name="menu">
+        <item> Mon Compte </item>
+        <item> Liste des utilisateurs </item>
+    </string-array>
+    <string name="account">Mon Compte</string>
+    <string name="users">Liste des utilisateurs</string>
+    <string name="label2">Liste des utilisateurs</string>
+    <string name="lastname">Nom: EL CHERIF</string>
+    <string name="firstname">Prenom: Iman</string>
+    <string name="sexe">Sexe: Feminin</string>
+    <string name="tel">Portable: 0699999999</string>
+    <string name="email">email: iman@gmail.com</string>
+    <string name="pass">password: 123</string>
+    <string name="contactdata">Welcome Iman !!!</string>
+   
+
+</resources>
